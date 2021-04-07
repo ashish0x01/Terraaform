@@ -1,9 +1,9 @@
 ##  Terraform warapper for helm deployment
 
-Terraform  version : v0.14.3
-hashicorp/helm v2.0.3
-hashicorp/kubernetes v2.0.3
-hashicorp/aws v3.35.0
+- Terraform  version : v0.14.3
+- hashicorp/helm v2.0.3
+- hashicorp/kubernetes v2.0.3
+- hashicorp/aws v3.35.0
 
 please modify below detailss on providers.tf file
 1. name_of_kube_comtext 
@@ -21,6 +21,6 @@ please modify below detailss on providers.tf file
     helm repo add grafana https://grafana.github.io/helm-charts
     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 3. terraform plan -> for check terraform plan
-4. terraform apply  -> it will add **loki-stack** and **prometheus-stack** by  usisng helm chart 
+4. terraform apply  -> it will add **loki-stack** and **prometheus-stack** by  using helm chart 
 
 
